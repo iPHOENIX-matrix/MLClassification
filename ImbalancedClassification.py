@@ -11,6 +11,7 @@ from matplotlib import pyplot
 #define dataset
 X,y = make_classification(n_samples=1000,n_features=2,n_informative=2,n_redundant=0,n_classes=2,n_clusters_per_class=1,weights=[0.99,0.01],random_state=1)
 
+
 #summarize dataset shape
 print(X.shape,y.shape)
 
